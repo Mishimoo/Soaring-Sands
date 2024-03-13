@@ -1,4 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
 ::res://::1710347093
-icon.svg::CompressedTexture2D::4308349748871719214::1710347096::1710347150::1::::<><>::
+AmericaMan.png::CompressedTexture2D::2988299451904214125::1710363434::1710363452::1::::<><>::
+MainMenu.cs::CSharpScript::-1::1710363006::0::1::::<>Control<>::
+MainMenu.tscn::PackedScene::1016430824570118176::1710362422::0::1::::<><>::res://MainMenu.cs
+Player.tscn::PackedScene::3045730843474154284::1710362422::0::1::::<><>::res://Sprite2D.cs
 README.md::TextFile::-1::1710347096::0::1::::<><>::
+Sprite2D.cs::CSharpScript::-1::1710363004::0::1::::<>Sprite2D<>::
+::res://scripts/::1710361781
+MainMenu.cs::CSharpScript::-1::1710361424::0::1::::<><>::
+Sprite2D.cs::CSharpScript::-1::1710360774::0::1::::<><>::
+::res://zones/::1710362229
+test.tscn::PackedScene::6748033811711838619::1710362422::0::1::::<><>::
