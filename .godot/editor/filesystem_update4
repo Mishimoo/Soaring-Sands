@@ -1,7 +1,4 @@
+res://zones/MainMenu.tscn
 res://Player.tscn
-res://MainMenu.tscn
-res://MainMenu.cs
-res://Sprite2D.cs
+res://scripts/MainMenu.gd
 res://zones/test.tscn
-res://scripts/MainMenu.cs
-res://scripts/PlayerMovement.cs

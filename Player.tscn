@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://bjnm0h01hxuye"]
 
 [ext_resource type="Texture2D" uid="uid://bits4c2y41454" path="res://AmericaMan.png" id="1_6yl8e"]
-[ext_resource type="Script" path="res://scripts/PlayerMovement.cs" id="2_groaj"]
+[ext_resource type="Script" path="res://scripts/new_script.gd" id="2_groaj"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k2qgf"]
 
