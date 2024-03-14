@@ -1,7 +1,14 @@
-[gd_scene load_steps=2 format=3 uid="uid://c3e2epn8yawoh"]
+[gd_scene load_steps=3 format=3 uid="uid://c3e2epn8yawoh"]
 
+[ext_resource type="Texture2D" uid="uid://dmub0xbpdiox5" path="res://SandingTimeTitle.png" id="1_eecd5"]
 [ext_resource type="PackedScene" uid="uid://bjnm0h01hxuye" path="res://Player.tscn" id="1_ieyrx"]
 
 [node name="Test" type="Node2D"]
 
+[node name="SandingTimeTitle" type="Sprite2D" parent="."]
+position = Vector2(992, 610)
+texture = ExtResource("1_eecd5")
+
 [node name="Player" parent="." instance=ExtResource("1_ieyrx")]
+
+[node name="Camera2D" type="Camera2D" parent="Player"]

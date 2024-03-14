@@ -1,22 +1,19 @@
 [gd_scene load_steps=4 format=3 uid="uid://bjnm0h01hxuye"]
 
 [ext_resource type="Texture2D" uid="uid://bits4c2y41454" path="res://AmericaMan.png" id="1_6yl8e"]
-[ext_resource type="Script" path="res://scripts/new_script.gd" id="2_groaj"]
+[ext_resource type="Script" path="res://Player.gd" id="1_jxk3w"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k2qgf"]
 
-[node name="Sprite2D" type="Node2D"]
+[node name="Player" type="CharacterBody2D"]
 position = Vector2(587, 344)
 scale = Vector2(0.125, 0.125)
-script = ExtResource("2_groaj")
-metadata/_edit_group_ = true
+script = ExtResource("1_jxk3w")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_6yl8e")
 
-[node name="CharacterBody2D" type="CharacterBody2D" parent="Sprite2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(16, 0)
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/CharacterBody2D"]
 scale = Vector2(3, 3)
 shape = SubResource("RectangleShape2D_k2qgf")

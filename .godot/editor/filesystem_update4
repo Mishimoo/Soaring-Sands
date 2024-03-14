@@ -2,3 +2,5 @@ res://zones/MainMenu.tscn
 res://Player.tscn
 res://scripts/MainMenu.gd
 res://zones/test.tscn
+res://scripts/new_script.gd
+res://Player.gd
