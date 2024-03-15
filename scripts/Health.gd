@@ -21,9 +21,9 @@ func _process(delta):
 			pass
 		else:
 			heaper = heaper.get_meta('health')
-		print(tc + " Health.gd _process Null checker ")
-		tc+=1
+		#print(tc + " Health.gd _process Null checker ")
+		#tc+=1
 	text= "Health: " + str(get_parent().get_parent().get_meta('health'))
 	if(Input.is_action_just_pressed("ui_select")):
-		
-		print(str(get_parent().get_parent().get_meta('health')) + "   Health.gd test")
+		pass
+		#print(str(get_parent().get_parent().get_meta('health')) + "   Health.gd test")

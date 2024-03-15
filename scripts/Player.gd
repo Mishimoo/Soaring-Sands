@@ -8,7 +8,7 @@ var side = Image.load_from_file("res://Images/Player01.png")
 var ts = ImageTexture.create_from_image(side)
 func _ready():
 	set_meta("health", 3)
-	print(get_meta('health'))
+	#print(get_meta('health'))
 func get_input():
 	var input_dir = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
 	# print(input_dir)

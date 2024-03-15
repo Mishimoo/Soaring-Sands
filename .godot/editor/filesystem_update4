@@ -1,10 +1,8 @@
-res://Entities/sword.tscn
 res://zones/MainMenu.tscn
 res://Entities/Player.tscn
 res://zones/test.tscn
-res://scripts/Player.gd
-res://scripts/MeleeE.gd
-res://scripts/Health.gd
-res://Entities/sandman_e.tscn
-res://scripts/MainMenu.gd
 res://Entities/Sword.tscn
+res://Entities/sandman_e.tscn
+res://scripts/Health.gd
+res://scripts/MeleeE.gd
+res://scripts/Player.gd
