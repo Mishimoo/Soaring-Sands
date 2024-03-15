@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dmub0xbpdiox5"
-path="res://.godot/imported/SandingTimeTitle.png-8fbd854764cd4a0fd270b737b710f4fa.ctex"
+uid="uid://bdku2jvno1xwx"
+path="res://.godot/imported/Sandman.png-3acc21ce70c206390c942197956ac172.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SandingTimeTitle.png"
-dest_files=["res://.godot/imported/SandingTimeTitle.png-8fbd854764cd4a0fd270b737b710f4fa.ctex"]
+source_file="res://Images/Sandman.png"
+dest_files=["res://.godot/imported/Sandman.png-3acc21ce70c206390c942197956ac172.ctex"]
 
 [params]
 

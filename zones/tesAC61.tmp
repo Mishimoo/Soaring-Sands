@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://c3e2epn8yawoh"]
+
+[ext_resource type="Texture2D" uid="uid://dmub0xbpdiox5" path="res://Images/SandingTimeTitle.png" id="1_eecd5"]
+[ext_resource type="PackedScene" uid="uid://bjnm0h01hxuye" path="res://Entities/Player.tscn" id="1_ieyrx"]
+[ext_resource type="Script" path="res://scripts/Health.gd" id="3_fk2r4"]
+[ext_resource type="PackedScene" uid="uid://c4tslgkvk4140" path="res://Entities/sandman_e.tscn" id="4_oddt5"]
+
+[node name="Test" type="Node2D"]
+
+[node name="SandingTimeTitle" type="Sprite2D" parent="."]
+position = Vector2(992, 612)
+texture = ExtResource("1_eecd5")
+
+[node name="Player" parent="." instance=ExtResource("1_ieyrx")]
+position = Vector2(0, -1)
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+
+[node name="Label" type="Label" parent="Player/Camera2D"]
+offset_left = -496.5
+offset_top = -265.5
+offset_right = -398.5
+offset_bottom = -232.5
+text = "Health: "
+script = ExtResource("3_fk2r4")
+
+[node name="SandmanE" parent="." instance=ExtResource("4_oddt5")]
+position = Vector2(356, -19)
+scale = Vector2(2, 2)
