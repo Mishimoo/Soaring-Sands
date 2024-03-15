@@ -1,12 +1,12 @@
 [gd_scene load_steps=10 format=3 uid="uid://dmxk2av0duss0"]
 
-[ext_resource type="Texture2D" uid="uid://crl1wq63r0jsd" path="res://Assets/Tiny Tales_2D_Overworld_2.0.1/Tiled/Images/Set_A_Desert1.png" id="1_7vy0n"]
-[ext_resource type="Texture2D" uid="uid://cyg31iry7xr5b" path="res://Assets/Tiny Tales_2D_Overworld_2.0.1/Tiled/Images/Set_A_Hills1.png" id="2_87rjh"]
-[ext_resource type="Texture2D" uid="uid://cd24s45e0x6fy" path="res://Assets/Tiny Tales_2D_Overworld_2.0.1/Tiled/Images/Set_B_Exteriors.png" id="3_1u3rb"]
-[ext_resource type="Texture2D" uid="uid://d0447lay4iqow" path="res://Assets/Tiny Tales_2D_Overworld_2.0.1/Tiled/Images/Set_E_Desert_Town1.png" id="4_rl37r"]
+[ext_resource type="Texture2D" uid="uid://crl1wq63r0jsd" path="res://Assets/Tiny Tales_2D_Overworld_2.0.1/Tiled/Images/Set_A_Desert1.png" id="1_s407s"]
+[ext_resource type="Texture2D" uid="uid://cyg31iry7xr5b" path="res://Assets/Tiny Tales_2D_Overworld_2.0.1/Tiled/Images/Set_A_Hills1.png" id="2_kjy8d"]
+[ext_resource type="Texture2D" uid="uid://cd24s45e0x6fy" path="res://Assets/Tiny Tales_2D_Overworld_2.0.1/Tiled/Images/Set_B_Exteriors.png" id="3_xpdvq"]
+[ext_resource type="Texture2D" uid="uid://d0447lay4iqow" path="res://Assets/Tiny Tales_2D_Overworld_2.0.1/Tiled/Images/Set_E_Desert_Town1.png" id="4_8mwbw"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yiuvw"]
-texture = ExtResource("1_7vy0n")
+texture = ExtResource("1_s407s")
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 0:0/0/physics_layer_0/angular_velocity = 0.0
@@ -714,7 +714,7 @@ texture = ExtResource("1_7vy0n")
 10:15/0/physics_layer_0/angular_velocity = 0.0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_34nhf"]
-texture = ExtResource("2_87rjh")
+texture = ExtResource("2_kjy8d")
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 0:0/0/physics_layer_0/angular_velocity = 0.0
@@ -1392,7 +1392,7 @@ texture = ExtResource("2_87rjh")
 10:15/0/physics_layer_0/angular_velocity = 0.0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kp7g1"]
-texture = ExtResource("3_1u3rb")
+texture = ExtResource("3_xpdvq")
 1:0/0 = 0
 1:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 1:0/0/physics_layer_0/angular_velocity = 0.0
@@ -2160,7 +2160,7 @@ texture = ExtResource("3_1u3rb")
 15:15/0/physics_layer_0/angular_velocity = 0.0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v5tgy"]
-texture = ExtResource("4_rl37r")
+texture = ExtResource("4_8mwbw")
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 0:0/0/physics_layer_0/angular_velocity = 0.0

@@ -1,26 +1,194 @@
 ea4bc82a6ad023ab7ee23ee620429895
 ::res://::1710347093
 README.md::TextFile::-1::1710347096::0::1::::<><>::
-::res://Entities/::1710462704
-dword.tscn::PackedScene::8802360738731337826::1710491392::0::1::::<><>::uid://02ln180q0rvd::::res://Images/Sword1.png
-Player.tscn::PackedScene::3045730843474154284::1710491392::0::1::::<><>::res://scripts/Player.gd
-sandman_e.tscn::PackedScene::6848653891375850371::1710491738::0::1::::<><>::res://scripts/MeleeE.gd<>uid://bdku2jvno1xwx::::res://Images/Sandman.png
-::res://Images/::1710469900
-AmericaMan.png::CompressedTexture2D::2988299451904214125::1710450080::1710480180::1::::<><>::
-icon.svg::CompressedTexture2D::5792696305010391624::1710459668::1710480180::1::::<><>::
-Pixel Font.TTF::FontFile::5573161969246133540::1710469692::1710480180::1::::<><>::
-Player01.png::CompressedTexture2D::4622955911572420611::1710460244::1710480180::1::::<><>::
-Player02.png::CompressedTexture2D::1938204366723688613::1710479058::1710480180::1::::<><>::
-Player03.png::CompressedTexture2D::8283647659339671837::1710482056::1710482086::1::::<><>::
-SandingTimeTitle.png::CompressedTexture2D::8042922301925005684::1710451324::1710480182::1::::<><>::
-Sandman.png::CompressedTexture2D::2618894054200019951::1710482334::1710482356::1::::<><>::
-Sword1.png::CompressedTexture2D::1811151810295537721::1710478100::1710480180::1::::<><>::
-::res://scripts/::1710450078
-Health.gd::GDScript::-1::1710490952::0::1::::<>Label<>::
-MainMenu.gd::GDScript::-1::1710487654::0::1::::<>Control<>::
-MeleeE.gd::GDScript::-1::1710491738::0::1::::<>Area2D<>::
-new_script.gd::GDScript::-1::1710455594::0::1::::<>Node<>::
-Player.gd::GDScript::-1::1710490996::0::1::::<>CharacterBody2D<>::
-::res://zones/::1710450078
-MainMenu.tscn::PackedScene::1016430824570118176::1710491392::0::1::::<><>::res://scripts/MainMenu.gd<>uid://dmub0xbpdiox5::::res://Images/SandingTimeTitle.png
-test.tscn::PackedScene::6748033811711838619::1710491392::0::1::::<><>::uid://dmub0xbpdiox5::::res://Images/SandingTimeTitle.png<>uid://bjnm0h01hxuye::::res://Entities/Player.tscn<>res://scripts/Health.gd<>uid://c4tslgkvk4140::::res://Entities/sandman_e.tscn
+::res://Assets/::1710521763
+::res://Assets/Tiny Tales_2D_Overworld_2.0.1/::1710521763
+Changelog.txt::TextFile::-1::1710521764::0::1::::<><>::
+License.txt::TextFile::-1::1710521764::0::1::::<><>::
+::res://Assets/Tiny Tales_2D_Overworld_2.0.1/RPG Maker/::1710521763
+Info.txt::TextFile::-1::1710521764::0::1::::<><>::
+::res://Assets/Tiny Tales_2D_Overworld_2.0.1/RPG Maker/Extras/::1710521763
+A1_Autotiles.png::CompressedTexture2D::5391981395471856598::1710521764::1710521764::1::::<><>::
+A2_Autotiles.png::CompressedTexture2D::3535994015877039377::1710521764::1710521764::1::::<><>::
+::res://Assets/Tiny Tales_2D_Overworld_2.0.1/RPG Maker/MV/::1710521763
+::res://Assets/Tiny Tales_2D_Overworld_2.0.1/RPG Maker/MV/Sprites/::1710521763
+!$Overworld_Doors1_A.png::CompressedTexture2D::2071262714338207461::1710521764::1710521764::1::::<><>::
+!$Overworld_Doors1_B.png::CompressedTexture2D::362851693227347665::1710521764::1710521764::1::::<><>::
+!$Overworld_Doors2_A.png::CompressedTexture2D::2652356918944026008::1710521764::1710521764::1::::<><>::
+!$Overworld_Doors2_B.png::CompressedTexture2D::1896853419752234707::1710521764::1710521764::1::::<><>::
+!$Overworld_DoubleDoors1.png::CompressedTexture2D::4670839172846822680::1710521764::1710521764::1::::<><>::
+!$Overworld_DoubleDoors2.png::CompressedTexture2D::3390760059090473645::1710521764::1710521764::1::::<><>::
+!$Overworld_Hearth1.png::CompressedTexture2D::4409233472418345661::1710521764::1710521764::1::::<><>::
+!$Overworld_Hearth2.png::CompressedTexture2D::442322645627349328::1710521764::1710521764::1::::<><>::
+!$Smoke1.png::CompressedTexture2D::2268747280430657955::1710521764::1710521764::1::::<><>::
+::res://Assets/Tiny Tales_2D_Overworld_2.0.1/RPG Maker/MV/Tilesets/::1710521763
+Set_A1_Water1.png::CompressedTexture2D::8677504263772137097::1710521764::1710521764::1::::<><>::
+Set_A1_Water2.png::CompressedTexture2D::9144826179543522108::1710521764::1710521764::1::::<><>::
+Set_A2_Interiors.png::CompressedTexture2D::872493210191614951::1710521764::1710521764::1::::<><>::
+Set_A2_Terrains1.png::CompressedTexture2D::4086501231778191057::1710521764::1710521764::1::::<><>::
+Set_A2_Terrains2.png::CompressedTexture2D::1859044431223862225::1710521764::1710521764::1::::<><>::
+Set_A3_Houses.png::CompressedTexture2D::1663415153221894289::1710521766::1710521766::1::::<><>::
+Set_A4_Interiors2.png::CompressedTexture2D::8758439338166233144::1710521766::1710521766::1::::<><>::
+Set_A4_Interiors.png::CompressedTexture2D::8538027808607645364::1710521766::1710521766::1::::<><>::
+Set_A5_Interiors.png::CompressedTexture2D::7687194205625774195::1710521766::1710521766::1::::<><>::
+Set_A5_Terrains_Darkwoods1.png::CompressedTexture2D::3933316649046800159::1710521766::1710521766::1::::<><>::
+Set_A5_Terrains_Darkwoods2.png::CompressedTexture2D::2447637414222984466::1710521766::1710521766::1::::<><>::
+Set_A5_Terrains_Desert1.png::CompressedTexture2D::5870765128962644812::1710521766::1710521766::1::::<><>::
+Set_A5_Terrains_Hills1.png::CompressedTexture2D::183335119731248009::1710521766::1710521766::1::::<><>::
+Set_A5_Terrains_Hills2.png::CompressedTexture2D::6465194261528973055::1710521766::1710521766::1::::<><>::
+Set_A5_Terrains_Hills3.png::CompressedTexture2D::2054419369934296548::1710521766::1710521766::1::::<><>::
+Set_A5_Terrains_Snow1 copiar.png::CompressedTexture2D::3834431111739207866::1710521766::1710521766::1::::<><>::
+Set_A5_Terrains_Snow1.png::CompressedTexture2D::3688105381901063617::1710521766::1710521766::1::::<><>::
+Set_B_Exteriors.png::CompressedTexture2D::2777845470380367917::1710521766::1710521766::1::::<><>::
+Set_C_Interiors.png::CompressedTexture2D::2831402533303479519::1710521766::1710521766::1::::<><>::
+Set_D_Interiors.png::CompressedTexture2D::5438651644779326884::1710521766::1710521766::1::::<><>::
+Set_E_Desert_Town1.png::CompressedTexture2D::3129747364602093504::1710521766::1710521766::1::::<><>::
+Set_E_Desert_Town2.png::CompressedTexture2D::3753315203727923902::1710521766::1710521766::1::::<><>::
+Set_E_Grand_Town1.png::CompressedTexture2D::3061353068433434690::1710521766::1710521766::1::::<><>::
+Set_E_Grand_Town2.png::CompressedTexture2D::6203955422104533013::1710521766::1710521766::1::::<><>::
+Set_E_Rooftops.png::CompressedTexture2D::6606842414325194543::1710521766::1710521766::1::::<><>::
+Set_E_Small_Village1.png::CompressedTexture2D::8318960266150673800::1710521766::1710521766::1::::<><>::
+Set_E_Small_Village2.png::CompressedTexture2D::1595732659241349319::1710521766::1710521766::1::::<><>::
+Set_E_Snow_Town1.png::CompressedTexture2D::1018751550819614691::1710521766::1710521766::1::::<><>::
+Set_E_Snow_Town2.png::CompressedTexture2D::8035754988996348307::1710521766::1710521766::1::::<><>::
+::res://Assets/Tiny Tales_2D_Overworld_2.0.1/RPG Maker/Original/::1710521764
+::res://Assets/Tiny Tales_2D_Overworld_2.0.1/RPG Maker/Original/Sprites/::1710521764
+!$Overworld_Doors1_A.png::CompressedTexture2D::3091556246643226970::1710521766::1710521766::1::::<><>::
+!$Overworld_Doors1_B.png::CompressedTexture2D::2741765394276099838::1710521766::1710521766::1::::<><>::
+!$Overworld_Doors2_A.png::CompressedTexture2D::4916359027435832088::1710521766::1710521766::1::::<><>::
+!$Overworld_Doors2_B.png::CompressedTexture2D::995994672252934234::1710521766::1710521766::1::::<><>::
+!$Overworld_DoubleDoors1.png::CompressedTexture2D::2560717427603319908::1710521766::1710521766::1::::<><>::
+!$Overworld_DoubleDoors2.png::CompressedTexture2D::5248822654548442717::1710521766::1710521766::1::::<><>::
+!$Overworld_Hearth1.png::CompressedTexture2D::6816845639780684369::1710521766::1710521766::1::::<><>::
+!$Overworld_Hearth2.png::CompressedTexture2D::5397078958252122282::1710521766::1710521766::1::::<><>::
+!$Smoke1.png::CompressedTexture2D::9093687540045909110::1710521766::1710521766::1::::<><>::
+::res://Assets/Tiny Tales_2D_Overworld_2.0.1/RPG Maker/Original/Tilesets/::1710521764
+Set_A1_Water1.png::CompressedTexture2D::5127206922529155844::1710521766::1710521766::1::::<><>::
+Set_A1_Water2.png::CompressedTexture2D::7407668735800243770::1710521766::1710521766::1::::<><>::
+Set_A2_Interiors.png::CompressedTexture2D::2264913866598043944::1710521766::1710521766::1::::<><>::
+Set_A2_Terrains1.png::CompressedTexture2D::9216374269003423374::1710521766::1710521766::1::::<><>::
+Set_A2_Terrains2.png::CompressedTexture2D::2549247545084163046::1710521766::1710521766::1::::<><>::
+Set_A3_Houses.png::CompressedTexture2D::4787204596110178336::1710521766::1710521766::1::::<><>::
+Set_A4_Interiors2.png::CompressedTexture2D::1636366035862624761::1710521766::1710521766::1::::<><>::
+Set_A4_Interiors.png::CompressedTexture2D::3035637039448685436::1710521766::1710521766::1::::<><>::
+Set_A5_Interiors.png::CompressedTexture2D::2135431769553893058::1710521766::1710521766::1::::<><>::
+Set_A5_Terrains_Darkwoods1.png::CompressedTexture2D::7907890650676699762::1710521766::1710521766::1::::<><>::
+Set_A5_Terrains_Darkwoods2.png::CompressedTexture2D::3034582452546964162::1710521766::1710521766::1::::<><>::
+Set_A5_Terrains_Desert1.png::CompressedTexture2D::7001545511891255196::1710521766::1710521766::1::::<><>::
+Set_A5_Terrains_Hills1.png::CompressedTexture2D::5010868634836862301::1710521766::1710521766::1::::<><>::
+Set_A5_Terrains_Hills2.png::CompressedTexture2D::5741744888596916332::1710521766::1710521766::1::::<><>::
+Set_A5_Terrains_Hills3.png::CompressedTexture2D::6031035833744566556::1710521766::1710521766::1::::<><>::
+Set_A5_Terrains_Snow1 copiar.png::CompressedTexture2D::8387637750151943048::1710521766::1710521766::1::::<><>::
+Set_A5_Terrains_Snow1.png::CompressedTexture2D::3130630494796930813::1710521766::1710521766::1::::<><>::
+Set_B_Exteriors.png::CompressedTexture2D::5331372076222266578::1710521766::1710521766::1::::<><>::
+Set_C_Interiors.png::CompressedTexture2D::5896899521085879093::1710521766::1710521766::1::::<><>::
+Set_D_Interiors.png::CompressedTexture2D::9129075378043916155::1710521766::1710521766::1::::<><>::
+Set_E_Desert_Town1.png::CompressedTexture2D::6601326230870491498::1710521766::1710521766::1::::<><>::
+Set_E_Desert_Town2.png::CompressedTexture2D::1747197049086166713::1710521766::1710521766::1::::<><>::
+Set_E_Grand_Town1.png::CompressedTexture2D::2781877639273114041::1710521766::1710521766::1::::<><>::
+Set_E_Grand_Town2.png::CompressedTexture2D::3391001738845751568::1710521766::1710521766::1::::<><>::
+Set_E_Rooftops.png::CompressedTexture2D::2306732262924029470::1710521766::1710521766::1::::<><>::
+Set_E_Small_Village1.png::CompressedTexture2D::3997829912180507559::1710521766::1710521766::1::::<><>::
+Set_E_Small_Village2.png::CompressedTexture2D::723483142963308829::1710521766::1710521766::1::::<><>::
+Set_E_Snow_Town1.png::CompressedTexture2D::7343820001302080389::1710521766::1710521766::1::::<><>::
+Set_E_Snow_Town2.png::CompressedTexture2D::5466672980483468550::1710521766::1710521766::1::::<><>::
+::res://Assets/Tiny Tales_2D_Overworld_2.0.1/RPG Maker/VXA/::1710521764
+::res://Assets/Tiny Tales_2D_Overworld_2.0.1/RPG Maker/VXA/Sprites/::1710521764
+!$Overworld_Doors1_A.png::CompressedTexture2D::2880344638015268995::1710521766::1710521766::1::::<><>::
+!$Overworld_Doors1_B.png::CompressedTexture2D::2635069453103410751::1710521766::1710521766::1::::<><>::
+!$Overworld_Doors2_A.png::CompressedTexture2D::2455055276363119043::1710521766::1710521766::1::::<><>::
+!$Overworld_Doors2_B.png::CompressedTexture2D::788106716419163891::1710521766::1710521766::1::::<><>::
+!$Overworld_DoubleDoors1.png::CompressedTexture2D::668259123198268379::1710521766::1710521766::1::::<><>::
+!$Overworld_DoubleDoors2.png::CompressedTexture2D::7256167380769755142::1710521766::1710521766::1::::<><>::
+!$Overworld_Hearth1.png::CompressedTexture2D::2633403044329630208::1710521766::1710521766::1::::<><>::
+!$Overworld_Hearth2.png::CompressedTexture2D::2309216277314123867::1710521766::1710521766::1::::<><>::
+!$Smoke1.png::CompressedTexture2D::6060448399023797282::1710521766::1710521766::1::::<><>::
+::res://Assets/Tiny Tales_2D_Overworld_2.0.1/RPG Maker/VXA/Tilesets/::1710521764
+Set_A1_Water1.png::CompressedTexture2D::8953451666584776841::1710521766::1710521766::1::::<><>::
+Set_A1_Water2.png::CompressedTexture2D::9154072616660387494::1710521766::1710521766::1::::<><>::
+Set_A2_Interiors.png::CompressedTexture2D::6069264848188668052::1710521766::1710521766::1::::<><>::
+Set_A2_Terrains1.png::CompressedTexture2D::9092821427896381393::1710521766::1710521766::1::::<><>::
+Set_A2_Terrains2.png::CompressedTexture2D::7318163750020700158::1710521766::1710521766::1::::<><>::
+Set_A3_Houses.png::CompressedTexture2D::2814609748943633996::1710521766::1710521766::1::::<><>::
+Set_A4_Interiors2.png::CompressedTexture2D::5480602302422442351::1710521766::1710521766::1::::<><>::
+Set_A4_Interiors.png::CompressedTexture2D::5701172870937767799::1710521766::1710521766::1::::<><>::
+Set_A5_Interiors.png::CompressedTexture2D::4221533364155856890::1710521766::1710521766::1::::<><>::
+Set_A5_Terrains_Darkwoods1.png::CompressedTexture2D::3210999985650506805::1710521766::1710521766::1::::<><>::
+Set_A5_Terrains_Darkwoods2.png::CompressedTexture2D::92302926627872943::1710521766::1710521766::1::::<><>::
+Set_A5_Terrains_Desert1.png::CompressedTexture2D::8727130446654190486::1710521766::1710521766::1::::<><>::
+Set_A5_Terrains_Hills1.png::CompressedTexture2D::2019122281744696085::1710521766::1710521766::1::::<><>::
+Set_A5_Terrains_Hills2.png::CompressedTexture2D::984871484117473319::1710521766::1710521766::1::::<><>::
+Set_A5_Terrains_Hills3.png::CompressedTexture2D::5156311923254418553::1710521766::1710521766::1::::<><>::
+Set_A5_Terrains_Snow1.png::CompressedTexture2D::4664956326795453137::1710521766::1710521766::1::::<><>::
+Set_B_Exteriors.png::CompressedTexture2D::2512577180955133978::1710521766::1710521766::1::::<><>::
+Set_C_Interiors.png::CompressedTexture2D::6893362874040946225::1710521766::1710521766::1::::<><>::
+Set_D_Interiors.png::CompressedTexture2D::2228298143008068573::1710521766::1710521766::1::::<><>::
+Set_E_Desert_Town1.png::CompressedTexture2D::2686131002584354282::1710521766::1710521766::1::::<><>::
+Set_E_Desert_Town2.png::CompressedTexture2D::4979828936071928257::1710521766::1710521766::1::::<><>::
+Set_E_Grand_Town1.png::CompressedTexture2D::7539516826644326548::1710521766::1710521766::1::::<><>::
+Set_E_Grand_Town2.png::CompressedTexture2D::8181511148284196881::1710521766::1710521766::1::::<><>::
+Set_E_Rooftops.png::CompressedTexture2D::4055158072242790459::1710521766::1710521766::1::::<><>::
+Set_E_Small_Village1.png::CompressedTexture2D::1568135854170910842::1710521766::1710521766::1::::<><>::
+Set_E_Small_Village2.png::CompressedTexture2D::7485454092657486189::1710521766::1710521766::1::::<><>::
+Set_E_Snow_Town1.png::CompressedTexture2D::8767810819774009356::1710521766::1710521766::1::::<><>::
+Set_E_Snow_Town2.png::CompressedTexture2D::7965460505457532019::1710521766::1710521766::1::::<><>::
+::res://Assets/Tiny Tales_2D_Overworld_2.0.1/Tiled/::1710521764
+::res://Assets/Tiny Tales_2D_Overworld_2.0.1/Tiled/Images/::1710521764
+Set_A_Darkwoods1.png::CompressedTexture2D::4505202795310461252::1710521766::1710521766::1::::<><>::
+Set_A_Darkwoods2.png::CompressedTexture2D::312270124090576608::1710521766::1710521766::1::::<><>::
+Set_A_Desert1.png::CompressedTexture2D::5990378683363688355::1710521766::1710521766::1::::<><>::
+Set_A_Hills1.png::CompressedTexture2D::6471506835244940089::1710521766::1710521766::1::::<><>::
+Set_A_Hills2.png::CompressedTexture2D::1503777236419060471::1710521766::1710521766::1::::<><>::
+Set_A_Hills3.png::CompressedTexture2D::2915935637666202377::1710521766::1710521766::1::::<><>::
+Set_A_Snow1.png::CompressedTexture2D::2453228561335890612::1710521766::1710521766::1::::<><>::
+Set_B_Exteriors.png::CompressedTexture2D::5040940604477805574::1710521766::1710521766::1::::<><>::
+Set_C_Interiors.png::CompressedTexture2D::2374848875303228823::1710521766::1710521766::1::::<><>::
+Set_D_Interiors.png::CompressedTexture2D::6086358413857851653::1710521766::1710521766::1::::<><>::
+Set_E_Desert_Town1.png::CompressedTexture2D::8975668613979419330::1710521766::1710521766::1::::<><>::
+Set_E_Desert_Town2.png::CompressedTexture2D::8522483507615131292::1710521766::1710521766::1::::<><>::
+Set_E_Grand_Town1.png::CompressedTexture2D::7192005833053405364::1710521766::1710521766::1::::<><>::
+Set_E_Grand_Town2.png::CompressedTexture2D::2822687728519634454::1710521766::1710521766::1::::<><>::
+Set_E_Small_Village1.png::CompressedTexture2D::2664422028355304561::1710521766::1710521766::1::::<><>::
+Set_E_Small_Village2.png::CompressedTexture2D::5988545897568788999::1710521766::1710521766::1::::<><>::
+Set_E_Snow_Town1.png::CompressedTexture2D::3431280101619332832::1710521766::1710521766::1::::<><>::
+Set_E_Snow_Town2.png::CompressedTexture2D::7944747590405235477::1710521766::1710521766::1::::<><>::
+Set_F_Rooftops.png::CompressedTexture2D::142753040569900364::1710521766::1710521766::1::::<><>::
+Set_F_Tables.png::CompressedTexture2D::845728172451000297::1710521766::1710521766::1::::<><>::
+Set_G_Carpet.png::CompressedTexture2D::6060206329098550241::1710521766::1710521766::1::::<><>::
+::res://Assets/Tiny Tales_2D_Overworld_2.0.1/Tiled/Sample Maps/::1710521764
+Beach1.png::CompressedTexture2D::1700147035951786215::1710521766::1710521766::1::::<><>::
+Cabin_in_the_Woods.png::CompressedTexture2D::1784420934732205444::1710521766::1710521766::1::::<><>::
+Cave1.png::CompressedTexture2D::4295841556915962712::1710521766::1710521766::1::::<><>::
+Cave2.png::CompressedTexture2D::8482238506268197539::1710521766::1710521766::1::::<><>::
+Darkwoods1.png::CompressedTexture2D::2090559693956664581::1710521766::1710521766::1::::<><>::
+Desert1.png::CompressedTexture2D::5100198573903552722::1710521766::1710521766::1::::<><>::
+Desert_Town.png::CompressedTexture2D::3346220026011677026::1710521766::1710521766::1::::<><>::
+Forest1.png::CompressedTexture2D::6271569014379915391::1710521766::1710521766::1::::<><>::
+Forest2.png::CompressedTexture2D::1238636626539333961::1710521766::1710521766::1::::<><>::
+Interiors.png::CompressedTexture2D::3339390162908551657::1710521766::1710521766::1::::<><>::
+Snowland.png::CompressedTexture2D::5529410255218679147::1710521766::1710521766::1::::<><>::
+Town1.png::CompressedTexture2D::8043518783396912633::1710521766::1710521766::1::::<><>::
+::res://Entities/::1710525928
+Player.tscn::PackedScene::3045730843474154284::1710525930::0::1::::<><>::res://scripts/Player.gd<>uid://dxn6uigxo8fpi::::res://Entities/Sword.tscn
+sandman_e.tscn::PackedScene::6848653891375850371::1710525930::0::1::::<><>::res://scripts/MeleeE.gd<>uid://bdku2jvno1xwx::::res://Images/Sandman.png
+Sword.tscn::PackedScene::8802360738731337826::1710525930::0::1::::<><>::uid://02ln180q0rvd::::res://Images/Sword1.png
+::res://Images/::1710525928
+AmericaMan.png::CompressedTexture2D::2988299451904214125::1710525930::1710525930::1::::<><>::
+icon.svg::CompressedTexture2D::5792696305010391624::1710525930::1710525936::1::::<><>::
+Pixel Font.TTF::FontFile::5573161969246133540::1710525930::1710525930::1::::<><>::
+Player01.png::CompressedTexture2D::4622955911572420611::1710525930::1710525930::1::::<><>::
+Player02.png::CompressedTexture2D::1938204366723688613::1710525930::1710525930::1::::<><>::
+Player03.png::CompressedTexture2D::8283647659339671837::1710525930::1710525930::1::::<><>::
+SandingTimeTitle.png::CompressedTexture2D::8042922301925005684::1710525930::1710525930::1::::<><>::
+Sandman.png::CompressedTexture2D::2618894054200019951::1710525930::1710525930::1::::<><>::
+Sword1.png::CompressedTexture2D::1811151810295537721::1710525930::1710525930::1::::<><>::
+::res://scripts/::1710525929
+Health.gd::GDScript::-1::1710525938::0::1::::<>Label<>::
+MainMenu.gd::GDScript::-1::1710525938::0::1::::<>Control<>::
+MeleeE.gd::GDScript::-1::1710525940::0::1::::<>Area2D<>::
+new_script.gd::GDScript::-1::1710525930::0::1::::<>Node<>::
+Player.gd::GDScript::-1::1710525940::0::1::::<>CharacterBody2D<>::
+::res://zones/::1710518264
+game_level.tscn::PackedScene::8049664283023758325::1710525048::0::1::::<><>::uid://crl1wq63r0jsd::::res://Assets/Tiny Tales_2D_Overworld_2.0.1/Tiled/Images/Set_A_Desert1.png<>uid://cyg31iry7xr5b::::res://Assets/Tiny Tales_2D_Overworld_2.0.1/Tiled/Images/Set_A_Hills1.png<>uid://cd24s45e0x6fy::::res://Assets/Tiny Tales_2D_Overworld_2.0.1/Tiled/Images/Set_B_Exteriors.png<>uid://d0447lay4iqow::::res://Assets/Tiny Tales_2D_Overworld_2.0.1/Tiled/Images/Set_E_Desert_Town1.png
+MainMenu.tscn::PackedScene::1016430824570118176::1710518974::0::1::::<><>::res://scripts/MainMenu.gd<>uid://dmub0xbpdiox5::::res://Images/SandingTimeTitle.png
+test.tscn::PackedScene::-1::1710525930::0::1::::<><>::

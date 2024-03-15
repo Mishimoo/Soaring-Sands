@@ -7,3 +7,5 @@ res://scripts/Health.gd
 res://scripts/MeleeE.gd
 res://scripts/Player.gd
 res://zones/game_level.tscn
+res://scripts/MainMenu.gd
+res://zones/game_level-1.tscn
