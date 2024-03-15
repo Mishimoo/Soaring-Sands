@@ -6,3 +6,4 @@ res://Entities/sandman_e.tscn
 res://scripts/Health.gd
 res://scripts/MeleeE.gd
 res://scripts/Player.gd
+res://zones/game_level.tscn
