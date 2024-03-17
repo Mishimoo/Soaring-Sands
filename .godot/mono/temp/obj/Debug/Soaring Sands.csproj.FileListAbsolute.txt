@@ -1,0 +1,18 @@
+D:\Gameinge\Soaring-Sands\.godot\mono\temp\bin\Debug\Soaring Sands.deps.json
+D:\Gameinge\Soaring-Sands\.godot\mono\temp\bin\Debug\Soaring Sands.runtimeconfig.json
+D:\Gameinge\Soaring-Sands\.godot\mono\temp\bin\Debug\Soaring Sands.dll
+D:\Gameinge\Soaring-Sands\.godot\mono\temp\bin\Debug\Soaring Sands.pdb
+D:\Gameinge\Soaring-Sands\.godot\mono\temp\bin\Debug\GodotSharp.dll
+D:\Gameinge\Soaring-Sands\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+D:\Gameinge\Soaring-Sands\.godot\mono\temp\obj\Debug\Soaring Sands.csproj.AssemblyReference.cache
+D:\Gameinge\Soaring-Sands\.godot\mono\temp\obj\Debug\Soaring Sands.GeneratedMSBuildEditorConfig.editorconfig
+D:\Gameinge\Soaring-Sands\.godot\mono\temp\obj\Debug\Soaring Sands.AssemblyInfoInputs.cache
+D:\Gameinge\Soaring-Sands\.godot\mono\temp\obj\Debug\Soaring Sands.AssemblyInfo.cs
+D:\Gameinge\Soaring-Sands\.godot\mono\temp\obj\Debug\Soaring Sands.csproj.CoreCompileInputs.cache
+D:\Gameinge\Soaring-Sands\.godot\mono\temp\obj\Debug\Soaring Sands.sourcelink.json
+D:\Gameinge\Soaring-Sands\.godot\mono\temp\obj\Debug\Soaring .198E12D8.Up2Date
+D:\Gameinge\Soaring-Sands\.godot\mono\temp\obj\Debug\Soaring Sands.dll
+D:\Gameinge\Soaring-Sands\.godot\mono\temp\obj\Debug\refint\Soaring Sands.dll
+D:\Gameinge\Soaring-Sands\.godot\mono\temp\obj\Debug\Soaring Sands.pdb
+D:\Gameinge\Soaring-Sands\.godot\mono\temp\obj\Debug\Soaring Sands.genruntimeconfig.cache
+D:\Gameinge\Soaring-Sands\.godot\mono\temp\obj\Debug\ref\Soaring Sands.dll

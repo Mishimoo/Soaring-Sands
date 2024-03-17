@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://bjnm0h01hxuye"]
+
+[ext_resource type="Script" path="res://scripts/Player.gd" id="1_jxk3w"]
+[ext_resource type="PackedScene" uid="uid://dxn6uigxo8fpi" path="res://Entities/Sword.tscn" id="2_wn1vl"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_he7av"]
+load_path = "res://.godot/imported/Player01.png-139410f5d29b09c1a2d629af5589a3ab.ctex"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k2qgf"]
+size = Vector2(40, 40)
+
+[node name="Player" type="CharacterBody2D"]
+scale = Vector2(2, 2)
+script = ExtResource("1_jxk3w")
+metadata/health = 4
+
+[node name="PlaySprite" type="Sprite2D" parent="."]
+texture = SubResource("CompressedTexture2D_he7av")
+
+[node name="Sword" parent="PlaySprite" instance=ExtResource("2_wn1vl")]
+position = Vector2(36, 6)
+rotation = 1.5708
+scale = Vector2(2, 2)
+
+[node name="HurtPlayer" type="CollisionShape2D" parent="."]
+position = Vector2(0, 4)
+shape = SubResource("RectangleShape2D_k2qgf")

@@ -1,0 +1,10 @@
+res://Entities/Player.tscn
+res://zones/test.tscn
+res://Entities/Sword.tscn
+res://Entities/sandman_e.tscn
+res://zones/game_level-1.tscn
+res://scripts/MainMenu.gd
+res://scripts/MeleeE.gd
+res://scripts/Player.gd
+res://zones/MainMenu.tscn
+res://global.tscn

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "31YLcaAKdwyjrLi5baQqD+WGazWocJkinEy0vd57km9EEYduHGm5cl0a6o70bjmm2T07KxqPUbLjXQY7G8XtZA==",
+  "success": true,
+  "projectFilePath": "D:\\Gameinge\\Soaring-Sands\\Soaring Sands.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\OWNER\\.nuget\\packages\\godot.sourcegenerators\\4.2.1\\godot.sourcegenerators.4.2.1.nupkg.sha512",
+    "C:\\Users\\OWNER\\.nuget\\packages\\godotsharp\\4.2.1\\godotsharp.4.2.1.nupkg.sha512",
+    "C:\\Users\\OWNER\\.nuget\\packages\\godotsharpeditor\\4.2.1\\godotsharpeditor.4.2.1.nupkg.sha512",
+    "C:\\Users\\OWNER\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\OWNER\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\OWNER\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.28\\microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512"
+  ],
+  "logs": []
+}
