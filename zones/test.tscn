@@ -23,6 +23,7 @@ offset_right = -398.5
 offset_bottom = -232.5
 text = "Health: "
 script = ExtResource("3_fk2r4")
+metadata/_edit_use_anchors_ = true
 
 [node name="SandmanE" parent="." instance=ExtResource("4_oddt5")]
 position = Vector2(356, -19)

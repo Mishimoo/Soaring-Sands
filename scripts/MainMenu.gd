@@ -11,8 +11,17 @@ func _process(delta):
 		clinker()
 
 func _on_start_pressed():
-	get_tree().change_scene_to_file("res://zones/test.tscn") # Currently enters the test scene
+	print(str(get_parent()) )#.set_meta('health', 4)
+	
+	get_tree().change_scene_to_file("res://zones/game_level-1.tscn") # Currently enters the test scene
+	
+func _on_options_pressed():
+	get_node('Player').set_meta('health', 4)
+	get_tree().change_scene_to_file("res://zones/test.tscn")
+	pass # Replace with function body.
+
 func _on_quit_pressed():
 	get_tree().quit() # Closes the Game.
 func clinker(): #Runs when LMB
 	pass
+

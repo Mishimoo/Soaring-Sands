@@ -12,13 +12,14 @@ size = Vector2(40, 40)
 [node name="Player" type="CharacterBody2D"]
 scale = Vector2(2, 2)
 script = ExtResource("1_jxk3w")
+metadata/health = 4
 
 [node name="PlaySprite" type="Sprite2D" parent="."]
 texture = SubResource("CompressedTexture2D_he7av")
 
 [node name="Sword" parent="PlaySprite" instance=ExtResource("2_wn1vl")]
-position = Vector2(0, 40)
-rotation = 3.14159
+position = Vector2(36, 6)
+rotation = 1.5708
 scale = Vector2(2, 2)
 
 [node name="HurtPlayer" type="CollisionShape2D" parent="."]

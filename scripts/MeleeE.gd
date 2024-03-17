@@ -26,7 +26,7 @@ func _process(delta):
 	pass
 func _on_body_entered(body):
 	#print(str(body) + "   Body Check ")
-	if( body.name == ('Player') && is_monitoring()):
+	if( body.name == ('Player')):
 		heaper = get_node('../Player')	
 		if(heaper == null):
 			pass
@@ -34,7 +34,7 @@ func _on_body_entered(body):
 			heaper = heaper.get_meta('health')
 			get_node('../Player').set_meta('health', int(heaper) - 1)
 			#print(str((heaper-1)) + "  Melee Check")				
-	elif(body.name == ('SwordBody') && is_monitoring()):
+	elif(body.name == ('SwordBody')):
 		health_me-=1
 		
 	pass # Replace with function body.

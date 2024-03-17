@@ -1,5 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
 ::res://::1710347093
+global.tscn::PackedScene::6797755196803463288::1710628802::0::1::::<><>::uid://bjnm0h01hxuye::::res://Entities/Player.tscn<>uid://c4tslgkvk4140::::res://Entities/sandman_e.tscn<>uid://dxn6uigxo8fpi::::res://Entities/Sword.tscn<>uid://dmxk2av0duss0::::res://zones/game_level-1.tscn<>uid://oqmp5b8exi6k::::res://zones/MainMenu.tscn<>uid://c3e2epn8yawoh::::res://zones/test.tscn
 README.md::TextFile::-1::1710347096::0::1::::<><>::
 ::res://Assets/::1710521763
 ::res://Assets/Tiny Tales_2D_Overworld_2.0.1/::1710521763
@@ -169,12 +170,13 @@ Interiors.png::CompressedTexture2D::3339390162908551657::1710521766::1710521766:
 Snowland.png::CompressedTexture2D::5529410255218679147::1710521766::1710521766::1::::<><>::
 Town1.png::CompressedTexture2D::8043518783396912633::1710521766::1710521766::1::::<><>::
 ::res://Entities/::1710525928
-Player.tscn::PackedScene::3045730843474154284::1710525930::0::1::::<><>::res://scripts/Player.gd<>uid://dxn6uigxo8fpi::::res://Entities/Sword.tscn
-sandman_e.tscn::PackedScene::6848653891375850371::1710525930::0::1::::<><>::res://scripts/MeleeE.gd<>uid://bdku2jvno1xwx::::res://Images/Sandman.png
-Sword.tscn::PackedScene::8802360738731337826::1710525930::0::1::::<><>::uid://02ln180q0rvd::::res://Images/Sword1.png
+Player.tscn::PackedScene::3045730843474154284::1710628800::0::1::::<><>::res://scripts/Player.gd<>uid://dxn6uigxo8fpi::::res://Entities/Sword.tscn
+sandman_e.tscn::PackedScene::6848653891375850371::1710628800::0::1::::<><>::res://scripts/MeleeE.gd<>uid://bdku2jvno1xwx::::res://Images/Sandman.png
+Sword.tscn::PackedScene::8802360738731337826::1710628800::0::1::::<><>::uid://02ln180q0rvd::::res://Images/Sword1.png
 ::res://Images/::1710525928
 AmericaMan.png::CompressedTexture2D::2988299451904214125::1710525930::1710525930::1::::<><>::
 icon.svg::CompressedTexture2D::5792696305010391624::1710525930::1710525936::1::::<><>::
+LIGHTNING BOLT.png::CompressedTexture2D::572272017043780474::1710554182::1710554082::1::::<><>::
 Pixel Font.TTF::FontFile::5573161969246133540::1710525930::1710525930::1::::<><>::
 Player01.png::CompressedTexture2D::4622955911572420611::1710525930::1710525930::1::::<><>::
 Player02.png::CompressedTexture2D::1938204366723688613::1710525930::1710525930::1::::<><>::
@@ -184,11 +186,11 @@ Sandman.png::CompressedTexture2D::2618894054200019951::1710525930::1710525930::1
 Sword1.png::CompressedTexture2D::1811151810295537721::1710525930::1710525930::1::::<><>::
 ::res://scripts/::1710525929
 Health.gd::GDScript::-1::1710525938::0::1::::<>Label<>::
-MainMenu.gd::GDScript::-1::1710525938::0::1::::<>Control<>::
-MeleeE.gd::GDScript::-1::1710525940::0::1::::<>Area2D<>::
+MainMenu.gd::GDScript::-1::1710552496::0::1::::<>Control<>::
+MeleeE.gd::GDScript::-1::1710548240::0::1::::<>Area2D<>::
 new_script.gd::GDScript::-1::1710525930::0::1::::<>Node<>::
-Player.gd::GDScript::-1::1710525940::0::1::::<>CharacterBody2D<>::
+Player.gd::GDScript::-1::1710548240::0::1::::<>CharacterBody2D<>::
 ::res://zones/::1710518264
-game_level.tscn::PackedScene::8049664283023758325::1710525048::0::1::::<><>::uid://crl1wq63r0jsd::::res://Assets/Tiny Tales_2D_Overworld_2.0.1/Tiled/Images/Set_A_Desert1.png<>uid://cyg31iry7xr5b::::res://Assets/Tiny Tales_2D_Overworld_2.0.1/Tiled/Images/Set_A_Hills1.png<>uid://cd24s45e0x6fy::::res://Assets/Tiny Tales_2D_Overworld_2.0.1/Tiled/Images/Set_B_Exteriors.png<>uid://d0447lay4iqow::::res://Assets/Tiny Tales_2D_Overworld_2.0.1/Tiled/Images/Set_E_Desert_Town1.png
-MainMenu.tscn::PackedScene::1016430824570118176::1710518974::0::1::::<><>::res://scripts/MainMenu.gd<>uid://dmub0xbpdiox5::::res://Images/SandingTimeTitle.png
-test.tscn::PackedScene::-1::1710525930::0::1::::<><>::
+game_level-1.tscn::PackedScene::8049664283023758325::1710628802::0::1::::<><>::uid://crl1wq63r0jsd::::res://Assets/Tiny Tales_2D_Overworld_2.0.1/Tiled/Images/Set_A_Desert1.png<>uid://cyg31iry7xr5b::::res://Assets/Tiny Tales_2D_Overworld_2.0.1/Tiled/Images/Set_A_Hills1.png<>uid://cd24s45e0x6fy::::res://Assets/Tiny Tales_2D_Overworld_2.0.1/Tiled/Images/Set_B_Exteriors.png<>uid://d0447lay4iqow::::res://Assets/Tiny Tales_2D_Overworld_2.0.1/Tiled/Images/Set_E_Desert_Town1.png<>uid://bjnm0h01hxuye::::res://Entities/Player.tscn<>res://scripts/Health.gd
+MainMenu.tscn::PackedScene::1016430824570118176::1710628802::0::1::::<><>::res://scripts/MainMenu.gd<>uid://dmub0xbpdiox5::::res://Images/SandingTimeTitle.png
+test.tscn::PackedScene::6748033811711838619::1710628800::0::1::::<><>::uid://dmub0xbpdiox5::::res://Images/SandingTimeTitle.png<>uid://bjnm0h01hxuye::::res://Entities/Player.tscn<>res://scripts/Health.gd<>uid://c4tslgkvk4140::::res://Entities/sandman_e.tscn

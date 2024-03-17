@@ -1,0 +1,27 @@
+[gd_scene load_steps=7 format=3 uid="uid://c335bgm1ca4xw"]
+
+[ext_resource type="PackedScene" uid="uid://bjnm0h01hxuye" path="res://Entities/Player.tscn" id="1_7fauq"]
+[ext_resource type="PackedScene" uid="uid://c4tslgkvk4140" path="res://Entities/sandman_e.tscn" id="2_0ew7j"]
+[ext_resource type="PackedScene" uid="uid://dxn6uigxo8fpi" path="res://Entities/Sword.tscn" id="3_7u0av"]
+[ext_resource type="PackedScene" uid="uid://dmxk2av0duss0" path="res://zones/game_level-1.tscn" id="4_kk45h"]
+[ext_resource type="PackedScene" uid="uid://oqmp5b8exi6k" path="res://zones/MainMenu.tscn" id="5_kt8ww"]
+[ext_resource type="PackedScene" uid="uid://c3e2epn8yawoh" path="res://zones/test.tscn" id="6_sjcq6"]
+
+[node name="Global" type="Node"]
+
+[node name="Player" parent="." instance=ExtResource("1_7fauq")]
+
+[node name="SandmanE" parent="." instance=ExtResource("2_0ew7j")]
+scale = Vector2(2, 2)
+
+[node name="Sword" parent="." instance=ExtResource("3_7u0av")]
+
+[node name="Game Level-1" parent="." instance=ExtResource("4_kk45h")]
+
+[node name="MainMenu" parent="." instance=ExtResource("5_kt8ww")]
+offset_left = -990.0
+offset_top = -534.0
+offset_right = -990.0
+offset_bottom = -534.0
+
+[node name="Test" parent="." instance=ExtResource("6_sjcq6")]

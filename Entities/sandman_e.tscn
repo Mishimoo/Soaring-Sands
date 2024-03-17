@@ -19,9 +19,9 @@ scale = Vector2(0.1, 0.1)
 texture = ExtResource("2_a0puw")
 
 [node name="TotalHealthMe" type="Panel" parent="Sprite2D"]
-offset_left = -130.0
+offset_left = -140.0
 offset_top = -230.0
-offset_right = 130.0
+offset_right = 120.0
 offset_bottom = -190.0
 
 [node name="ColorRect" type="ColorRect" parent="Sprite2D/TotalHealthMe"]
